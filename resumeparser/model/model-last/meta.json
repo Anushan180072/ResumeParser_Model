@@ -1,0 +1,147 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.1,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"9d036607f",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "ACHEIVEMENTS",
+      "ACHIEVEMENTS",
+      "ADDRESS",
+      "CERTIFICATIONS",
+      "EDUCATION",
+      "EMAIL",
+      "EXTRA CIRCULAR",
+      "EXTRA CURRICULAR",
+      "GPA/PERCENTAGE",
+      "GRADUATION",
+      "INTERNSHIP",
+      "JOB ROLE",
+      "LINKEDIN/GITHUB",
+      "NAME",
+      "ONLINE PROFILES",
+      "PERCENTAGE",
+      "PROGRAMMING",
+      "PROJECTS",
+      "SKILLS",
+      "TECHNOLOGICS",
+      "TECHNOLOGIES",
+      "TECHNOLOGIES ",
+      "UNIVERSITY/COLLEGE",
+      "WEB TECHNOLOGIES",
+      "WORK EXPERIANCE",
+      "WORK EXPERIENCE"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.1178922988,
+    "ents_p":0.2121717382,
+    "ents_r":0.0816228352,
+    "ents_per_type":{
+      "EMAIL":{
+        "p":0.9,
+        "r":0.6428571429,
+        "f":0.75
+      },
+      "GRADUATION":{
+        "p":0.4,
+        "r":0.3921568627,
+        "f":0.396039604
+      },
+      "ACHIEVEMENTS":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "SKILLS":{
+        "p":0.2794585987,
+        "r":0.1036927622,
+        "f":0.1512605042
+      },
+      "ADDRESS":{
+        "p":0.0975609756,
+        "r":0.0204081633,
+        "f":0.0337552743
+      },
+      "WORK EXPERIENCE":{
+        "p":0.0416666667,
+        "r":0.0029498525,
+        "f":0.0055096419
+      },
+      "NAME":{
+        "p":0.7843137255,
+        "r":0.347826087,
+        "f":0.4819277108
+      },
+      "EXTRA CURRICULAR":{
+        "p":0.08,
+        "r":0.0909090909,
+        "f":0.085106383
+      },
+      "CERTIFICATIONS":{
+        "p":0.1578947368,
+        "r":0.0895522388,
+        "f":0.1142857143
+      },
+      "ONLINE PROFILES":{
+        "p":0.5454545455,
+        "r":0.4,
+        "f":0.4615384615
+      },
+      "JOB ROLE":{
+        "p":0.4032258065,
+        "r":0.0746268657,
+        "f":0.1259445844
+      },
+      "PROJECTS":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "TECHNOLOGIES":{
+        "p":0.0199203187,
+        "r":0.010359116,
+        "f":0.0136301681
+      },
+      "PERCENTAGE":{
+        "p":1.0,
+        "r":0.0526315789,
+        "f":0.1
+      },
+      "WEB TECHNOLOGIES":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":4273.4257853925,
+    "ner_loss":9274.2509051963
+  }
+}
